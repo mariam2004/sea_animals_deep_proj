@@ -115,12 +115,16 @@ Model performance is evaluated through:
    git clone https://github.com/your-repo/sea-creatures-classification.git
    cd sea-creatures-classification
 
-~To run the code, it is recommended to use Jupyter Notebook. This environment allows you to execute the code interactively,
-visualize results, and debug efficiently.
+### 2. Required Libraries
+To run the code, make sure to install the necessary libraries. These libraries are required for the project:
 
-2.Required Libraries
-NumPy: For numerical operations and array manipulations.
-TensorFlow: For building, training, and deploying deep learning models.
-Matplotlib: For creating visualizations and plots.
-Scikit-learn: For machine learning utilities like computing class weights.
+- **NumPy**: For numerical operations and array manipulations.
+- **TensorFlow**: For building, training, and deploying deep learning models.
+- **Matplotlib**: For creating visualizations and plots.
+- **Scikit-learn**: For machine learning utilities like computing class weights.
+
+To install the required libraries, use the following command:
+
+```bash
+pip install numpy tensorflow matplotlib scikit-learn
 
